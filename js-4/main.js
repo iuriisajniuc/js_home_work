@@ -50,7 +50,7 @@ let wordsList = function (str, subStr) {
 
 let myDate = new Date();
 let getLocalDate = function (date, isSeconds, isISO) {
-  const reg = new RegExp(":\\d{2}$", "gui");
+  const reg = new RegExp(":\\d{2}$", "gi");
   const year = date.getFullYear();
   const month =
     date.getMonth() + 1 > 9 ? date.getMonth() + 1 : `0${date.getMonth() + 1}`;

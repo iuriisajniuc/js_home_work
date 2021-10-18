@@ -23,9 +23,8 @@ function createContainer() {
   document.querySelector("body").appendChild(elem);
 
   container = document.querySelector("#carousel");
-  console.log(container);
 }
-// createContainer();
+createContainer();
 
 function create2(p) {
   let slides = document.createElement("ul");
